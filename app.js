@@ -45,7 +45,7 @@ function calculateDishNumber(string, $scope) {
     if(numberOfDishes>3){
 			return "Too Much!";
 	}else{
-		if(numberOfDishes == 0){
+		if(string==""){
 			return "Please, enter data first";
 		}else{
 			return "Enjoy!";
